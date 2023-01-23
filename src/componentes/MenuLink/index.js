@@ -11,7 +11,7 @@ export default function MenuLink({ titulo, to }) {
     //   {titulo}
     // </Link>
 
-    <NavLink to={to} style={({ isActive }) => isActive ? styles.linkDestacado : ""} end >
+    <NavLink to={to} className={({ isActive }) => `${styles.link} ${isActive ? styles.linkDestacado : ""} `} end >
       {titulo}
     </NavLink>
   )
