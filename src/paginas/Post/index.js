@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import posts from '../../json/posts.json'
 import PostModelo from '../../componentes/PostModelo'
 import { ReactMarkdown } from 'react-markdown/lib/react-markdown'
+import NaoEncontrada from '../NaoEncontrada'
 
 export default function Post() {
 
@@ -13,7 +14,9 @@ export default function Post() {
     })
 
     if(!post) {
-        
+        return (
+            <NaoEncontrada />
+        )
     }
 
     return (

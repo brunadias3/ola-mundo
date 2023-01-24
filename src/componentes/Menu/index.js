@@ -6,7 +6,7 @@ export default function Menu() {
   return (
     <header>
         <nav className={styles.navegacao}>
-            <MenuLink titulo='Inicio' to='/' />
+            <MenuLink titulo='Início' to='/' />
             <MenuLink titulo='Sobre Mim' to='/sobremim' />
         </nav>
     </header>
