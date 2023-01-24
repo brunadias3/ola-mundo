@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# 🎯 Introdução
+O objetivo deste projeto é:
+- Conhecer a biblioteca react-router-dom e seus principais recursos;
+- Aprender a definição e o porquê utilizar uma SPA (Single Page Application);
+- Resolver problemas utilizando rotas aninhadas e rotas dinâmicas;
+- Explorar os hooks do react-router-dom, como useLocation e useParams.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Aplicação
 
-## Available Scripts
+- O funcionamento da aplicação se baseia no conceito de um Blog Pessoal, apresentando sobre mim e incluindo cards com artigos da Alura.
+- Prototipação do projeto: <a href="https://www.figma.com/file/nDTrIQxTu6aldQG0o0iAbj/Ol%C3%A1%2C-Mundo!---Projeto-React%3A-router?node-id=38%3A716">Figma</a>
 
-In the project directory, you can run:
+## Página Início
+![image](https://user-images.githubusercontent.com/89141910/214208949-b8708381-2d48-44e0-91e8-18364351aba8.png) <br>
 
-### `npm start`
+## Página Sobre Mim
+![image](https://user-images.githubusercontent.com/89141910/214208998-ee44c964-858f-43ae-9376-6dc1e240f68a.png) <br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Step by Step
 
-### `npm test`
+Caso queira visualizar a aplicação rodando diretamente na sua máquina, é necessário seguir alguns passos:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Instalar o <a href="https://nodejs.org/en/">Node.js</a>
+2. Abrir o terminal e digitar ```git clone https://github.com/brunadias3/ola-mundo.git```
+3. Em seguida, no terminal da pasta ***organo*** execute o comando ```npm install``` ou ```npm i```
+4. Para finalizar, execute o comando ```npm start``` e aproveite!
